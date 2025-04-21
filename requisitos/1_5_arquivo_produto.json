@@ -1,0 +1,65 @@
+{
+    "produtos": [
+      {
+        "nome": "Smartphone XYZ",
+        "descricao": "Smartphone com 128GB, tela AMOLED 6.5”, câmera tripla de 50MP e bateria de 5000mAh",
+        "preco": 1799.99,
+        "icms": 18
+      },
+      {
+        "nome": "Notebook Alpha Pro",
+        "descricao": "Notebook Intel i7, 16GB RAM, SSD 512GB, tela 15.6” Full HD, GPU dedicada",
+        "preco": 4299.90,
+        "icms": 12
+      },
+      {
+        "nome": "Fone de Ouvido Wireless",
+        "descricao": "Fone bluetooth com cancelamento de ruído, autonomia de 30h e case recarregável",
+        "preco": 499.00,
+        "icms": 8
+      },
+      {
+        "nome": "Smartwatch FitBand",
+        "descricao": "Relógio inteligente com monitor cardíaco, GPS, e integração com apps fitness",
+        "preco": 699.00,
+        "icms": 10
+      },
+      {
+        "nome": "Câmera de Ação GoCam 4K",
+        "descricao": "Câmera à prova d’água com gravação 4K, Wi-Fi, e acessórios inclusos",
+        "preco": 1299.99,
+        "icms": 15
+      },
+      {
+        "nome": "Console Gamer PlayZ",
+        "descricao": "Console com SSD de 1TB, controle sem fio e 3 jogos pré-instalados",
+        "preco": 3899.90,
+        "icms": 18
+      },
+      {
+        "nome": "Caixa de Som Bluetooth BoomSound",
+        "descricao": "Som potente com graves reforçados, resistente à água e bateria de 20h",
+        "preco": 799.90,
+        "icms": 10
+      },
+      {
+        "nome": "Monitor UltraWide 29”",
+        "descricao": "Monitor IPS 29” com proporção 21:9, resolução Full HD e entradas HDMI/DisplayPort",
+        "preco": 1399.00,
+        "icms": 12
+      },
+      {
+        "nome": "Teclado Mecânico RGB Pro",
+        "descricao": "Teclado gamer com switches mecânicos, iluminação RGB e teclas programáveis",
+        "preco": 429.00,
+        "icms": 8
+      },
+      {
+        "nome": "Mouse Gamer Precision X",
+        "descricao": "Mouse óptico de alta precisão com 6 botões e ajuste de DPI até 12000",
+        "preco": 259.90,
+        "icms": 8
+      }
+    ]
+  }
+  
