@@ -1,4 +1,4 @@
-```markdown
+
 # 🛒 Projeto Melhores Compras - SGV (FIAP)
 
 Este projeto tem como objetivo simular o gerenciamento de vídeos e atendimentos da empresa fictícia **Melhores Compras LTDA**, integrando conceitos de banco de dados relacionais, SQL, Python e práticas ESG.
@@ -47,7 +47,7 @@ melhorescompras/
 - Relatórios de desempenho por funcionário em formatos CSV e PDF
 - Simulação de práticas ESG com estrutura de auditoria e documentação
 
----
+
 
 ## 🧰 Como executar
 
