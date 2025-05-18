@@ -1,7 +1,7 @@
 # 🛒 Projeto Melhores Compras LTDA – SGV
 
-📘 Projeto acadêmico da FIAP – 1TSCOB – Fase 2  
-🎯 Tema: Sistema de Gerenciamento de Vídeos com banco de dados relacional, SQL, Python e ESG
+📘 Projeto acadêmico da FIAP – 1TSCOB – Fase 3  
+🎯 Tema: Sistema de Gerenciamento de Vídeos com banco de dados relacional, SQL, Python, ESG e LGPD
 
 ---
 
@@ -23,19 +23,21 @@ Desenvolver uma solução completa para gerenciamento de vídeos, produtos, aten
 - **Integração com arquivos JSON**
 - **Geração de relatórios em CSV e PDF**
 - **Simulação de práticas ESG (Ambiental, Social, Governança)**
+- **Aplicação de conceitos da LGPD com segurança e anonimização de dados**
 
 ---
 
-## 📌 Desafios Atendidos (FIAP)
+## 📌 Entregas da Fase 3 (FIAP)
 
-| Desafio | Entregável                                      | Status |
-|---------|--------------------------------------------------|--------|
-| 1.1     | `1_1_componentes.txt` com identificação do grupo | ✅     |
-| 1.2     | `1_2_comandos_DML.sql` – DMLs com simulações     | ✅     |
-| 1.3     | `1_3_comandos_DQL.sql` – Consultas SQL completas | ✅     |
-| 1.4     | `algoritmo_produto.py` – Inserção com cálculo de ICMS | ✅     |
-| 1.5     | `1_5_arquivo_produto.json` + `1_6_ProgramaSustentabilidade.docx` | ✅     |
-| 1.6     | Relatórios em `.csv` e `.pdf`                    | ✅     |
+| Desafio | Entregável                                                | Status |
+|---------|------------------------------------------------------------|--------|
+| 3.1     | `1_2_comandos_DML.sql` – Carga em `sgv_ocorrencia_sac`    | ✅     |
+| 3.2     | `1_2_evidencia_execucao.docx` – Tabela preenchida         | ✅     |
+| 3.3     | `1_3_comandos_DQL.sql` – Consulta por categoria           | ✅     |
+| 3.4     | `1_3_evidencia_categorias.docx` – Quantidade por categoria| ✅     |
+| 3.5     | `1_5_Template_Ampliando_Consistencia_LGPD.docx` – LGPD    | ✅     |
+| 3.6     | `1_1_componentes.txt` – Membros do grupo                  | ✅     |
+| 3.7     | `PBL_1º_Ano_Fase3_MelhoresCompras.zip` – Compactado final | ✅     |
 
 ---
 
@@ -46,23 +48,23 @@ melhorescompras/
 ├── data/
 │   └── melhores_compras.db
 ├── notebooks/
-│   ├── melhorescompras_final.ipynb
-│   ├── melhorescompras_final_completo_v2_EVIDENCIA.ipynb
-│   ├── melhorescompras_final_completo_v3_EVIDENCIA.ipynb
-│   └── *.html (gerado via nbconvert para submissão)
+│   ├── fase3_ocorrencias_sac.ipynb
+│   ├── consulta_chamados_categoria.ipynb
+│   └── melhorescompras_final_completo_v3_EVIDENCIA.ipynb
 ├── requisitos/
 │   ├── 1_1_componentes.txt
 │   ├── 1_2_comandos_DML.sql
 │   ├── 1_3_comandos_DQL.sql
 │   ├── 1_5_arquivo_produto.json
-│   └── 1_6_ProgramaSustentabilidade.docx
+│   └── 1_6_ProgramaSustentabilidade_atualizado.docx
 ├── relatorios/
+│   ├── 1_2_evidencia_execucao.docx
+│   ├── 1_3_evidencia_categorias.docx
 │   ├── relatorio_funcionarios.csv
 │   └── relatorio_funcionarios.pdf
 ├── algoritmo_produto.py
 ├── database_setup.py
 ├── gerar_relatorios.py
-├── crud.py
 ├── requirements.txt
 └── README.md
 ```
@@ -98,7 +100,8 @@ python gerar_relatorios.py
 - Algoritmo em Python para geração e ingestão de produtos com ICMS
 - Exportação de relatórios analíticos por funcionário
 - Planejamento ESG com base em práticas ambientais, sociais e de governança
-- Notebooks com evidências para verificação dos dados e comandos
+- Aplicação prática da LGPD com recomendações e anonimização de dados
+- Notebooks com evidências e código rastreável para todas as entregas da fase
 
 ---
 
